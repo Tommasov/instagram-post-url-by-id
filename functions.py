@@ -7,4 +7,4 @@ def getUrlFromMediaId(media_id):
         media_id = (media_id - remainder) // 64
         shortened_id = alphabet[int(remainder)] + shortened_id
 
-    return 'Post url: ' + 'https://instagram.com/p/' + shortened_id + '/'
+    return 'https://instagram.com/p/' + shortened_id + '/'
